@@ -10,18 +10,18 @@ const Quiz = (props) => {
     function optn_styles(){
      if(!showAnsMode){
       if(selected_option==optn){
-        return {backgroundColor:"black",color:"white"}
+        return {backgroundColor:"#00cccc",color: "white"}
        }
      }
      else{
       if(selected_option==optn && selected_option==correct_answer){
-        return {backgroundColor:"blue"}
+        return {backgroundColor:"#008000"}
       }
       if(selected_option==optn){
-        return{backgroundColor:"red"}
+        return{backgroundColor:"#ff6666"}
       }
       if(optn===correct_answer){
-        return{backgroundColor:"green"}
+        return{backgroundColor:"#80ff80"}
       }
      }
     }
