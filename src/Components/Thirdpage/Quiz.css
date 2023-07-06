@@ -1,0 +1,20 @@
+.options{
+    border: solid 1px black;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+/* .quiz_container{
+
+} */
+
+.select_kar_liya{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(9px);
+    color: black;
+}
