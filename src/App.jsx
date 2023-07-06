@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Quizpage from "./Components/Quizpage/Quizpage"
 import Startpage from "./Components/Startpage/Startpage"
-import '../src/app.css'
+import './app.css'
 const App = () => {
 
 const [gameHas_Started,setgameHas_Started]=useState(false)
