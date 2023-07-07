@@ -91,7 +91,7 @@ const { question, alloption, correct_answer, id, selected_option } = obj
 
 	return (
 		<>
-		<div>
+		<div className="quizpage_container">
 		{isLoading ? (
      <FidgetSpinner
 	 className="loader_spinner"
@@ -105,12 +105,12 @@ const { question, alloption, correct_answer, id, selected_option } = obj
 	 backgroundColor="#F4442E"
    />
     ) : (
-		<section>
+		<section className="quiz_section">
 		<div>
 {allQuiz}
 		</div>
-		<div>
-		<button onClick={changeShowMode}>show Ans</button>
+		<div className="showAns_parent">
+		<button className="button-86 showAns_btn" onClick={changeShowMode}>show Ans</button>
 		</div>
 	</section>
     )}
