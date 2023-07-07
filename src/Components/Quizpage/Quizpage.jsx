@@ -93,8 +93,9 @@ const { question, alloption, correct_answer, id, selected_option } = obj
 		<>
 		<div className="quizpage_container">
 		{isLoading ? (
-     <FidgetSpinner
-	 className="loader_spinner"
+	 
+	 <div className="loader_spinner" >
+		 <FidgetSpinner
 	 visible={true}
 	 height="150"
 	 width="200"
@@ -104,9 +105,10 @@ const { question, alloption, correct_answer, id, selected_option } = obj
 	 ballColors={['#ff0000', '#00ff00', '#0000ff']}
 	 backgroundColor="#F4442E"
    />
+	   </div>
     ) : (
 		<section className="quiz_section">
-		<div>
+		<div className="allquiz">
 {allQuiz}
 		</div>
 		<div className="showAns_parent">
